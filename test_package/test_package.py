@@ -19,10 +19,3 @@ class test_package:
     def printDf(self):
         print(self._df)
 
-def main():
-    
-    obj = test_package(filepath="F:\\rohan\\appliedaicourse\\Github\\test_package\\test.csv")
-    obj.printDf()
-    
-if __name__=='__main__':
-    main()
